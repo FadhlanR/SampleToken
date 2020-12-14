@@ -1,0 +1,27 @@
+{
+  "name": "upradable-rajacoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "networks.js",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "dotenv": "^8.2.0",
+    "ethereumjs-abi": "^0.6.8"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "eth-signer": "^0.2.2",
+    "ethereumjs-testrpc": "^3.0.3",
+    "standard": "^9.0.2",
+    "truffle": "^5.1.12",
+    "truffle-hdwallet-provider": "0.0.3",
+    "truffle-privatekey-provider": "^1.3.0",
+    "web3": "^1.2.11"
+  },
+  "scripts": {
+    "test": "truffle test ./test/*.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
